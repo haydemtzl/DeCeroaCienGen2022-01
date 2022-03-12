@@ -25,7 +25,7 @@
 #     print(array)
 
 
-
+#
 # def quickSort(array):
 #    quickSortHelper(array,0,len(array)-1)
 #
@@ -36,7 +36,7 @@
 #        print(array)
 #        quickSortHelper(array, inicio, puntoDiv-1)
 #        quickSortHelper(array, puntoDiv+1, fin)
-
+#
 #
 # def particion(array,inicio,fin):
 #    pivot = array[inicio]
@@ -110,4 +110,4 @@ print("*** Merge Sort*** \n"+str(array)+"\n")
 
 
 
-["a",["b", ["d",[],[]], ["e",[],[]]], ["c", ["f",[],[]], []]]
+# ["a",["b", ["d",[],[]], ["e",[],[]]], ["c", ["f",[],[]], []]]

@@ -36,9 +36,9 @@ import os
 # variableanimallegs  = setAnimal(variableanimal)
 # if variableanimallegs > 0:
 #     describeAnimal(variableanimallegs)
-#
- #Object Oriented Programming
 
+ #Object Oriented Programming
+#
 # class Animal(object):
 #
 #     def __init__(self):
@@ -62,3 +62,28 @@ import os
 # animal.setAnimal()
 # if animal.animallegs > 0:
 #      animal.describeAnimal()
+
+
+# def sumaacumulada(lista):
+#     listanueva=[]
+#     suma=0
+#     for i in range(len(lista)):
+#         suma = suma + lista[i]
+#         listanueva.append(suma)
+#
+# def sumaacumulada2(lista):
+#     listanueva=[]
+#     suma=0
+#     for i in range(len(lista)):
+#         suma += lista[i]
+#         listanueva.append(suma)
+
+
+def sumaacumulada3(lista):
+    suma=0
+    for i in range(len(lista)):
+        suma += lista[i]
+        lista[i] = suma
+    print(lista)
+
+sumaacumulada3([1,2,3])
